@@ -1,0 +1,16 @@
+{
+  "name": "butterfly-ui",
+  "version": "0.0.1",
+  "description": "weex ui frame test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --config ./build/webpack.base.config.js --progress --profile",
+    "build": "webpack --config ./build/webpack.base.config.js --progress --profile"
+  },
+  "author": "nick",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  }
+}
